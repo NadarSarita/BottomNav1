@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="DashBoard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_hospital"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>
